@@ -1,10 +1,19 @@
 {
-  "version": "1.4.29",
+  "version": "1.4.30",
   "date": "2026-11-15",
-  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.29/NexBar-Setup-1.4.29.exe",
-  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.29/NexBar-Setup-1.4.29.msi",
-  "notes": "Added customizable notification font size (Small, Medium, Large, XL) and live Pro license activation after checkout.",
+  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.30/NexBar-Setup-1.4.30.exe",
+  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.30/NexBar-Setup-1.4.30.msi",
+  "notes": "License keys now bind automatically to a single PC on first activation.",
   "releases": [
+    {
+      "version": "1.4.30",
+      "date": "2026-11-15",
+      "title": "Single-Device License Activation",
+      "changes": [
+        "License keys now bind automatically to the first PC they are activated on, limiting each key to one device.",
+        "Re-activating your license on the same PC continues to work seamlessly, while full offline validation stays active after initial activation."
+      ]
+    },
     {
       "version": "1.4.29",
       "date": "2026-11-15",
