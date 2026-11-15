@@ -1,0 +1,39 @@
+{
+  "version": "1.4.28",
+  "date": "2026-11-15",
+  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.28/NexBar-Setup-1.4.28.exe",
+  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.28/NexBar-Setup-1.4.28.msi",
+  "notes": "Atomic dock positioning, full 11-icon Windows 11 system tray, Bluetooth inquiry scan, and auto-updater.",
+  "releases": [
+    {
+      "version": "1.4.28",
+      "date": "2026-11-15",
+      "title": "Dock Stability, Full Tray, Bluetooth Scan & Auto-Update",
+      "changes": [
+        "Locked main dock HWND coordinates via WM_WINDOWPOSCHANGING and atomic SetWindowPos to stop upward jumps when opening or closing apps.",
+        "Restored full 11+ Windows 11 system tray icon enumeration (UWP/Packaged + Win32) and double-click toggle close.",
+        "Added live Bluetooth classic + BLE inquiry scanning (discoverable/connectable devices).",
+        "Fixed Storage header live stats on immediate open and added built-in GitHub auto-updater + Changelog tab."
+      ]
+    },
+    {
+      "version": "1.4.27",
+      "date": "2026-11-14",
+      "title": "Stripe Checkout, Custom MSI Installer & App Icon",
+      "changes": [
+        "Updated lifetime license Stripe checkout integration and branded metallic N application icon.",
+        "Enabled NSIS and MSI installers with clean uninstallation and taskbar-guard watchdog protection.",
+        "Stabilized parallel COM/STA audio and Wi-Fi test suites."
+      ]
+    },
+    {
+      "version": "1.4.20",
+      "date": "2026-11-01",
+      "title": "Liquid Glass Engine & Smart Taskbar Integration",
+      "changes": [
+        "Added native Liquid Glass refraction backdrop sampling and smooth magnification spring presets.",
+        "Added Focus timer, Screen Time tracking, Weather, Stocks, Calendar, and AI Integrations popovers."
+      ]
+    }
+  ]
+}
