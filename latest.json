@@ -3,36 +3,36 @@
   "date": "2026-11-15",
   "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.28/NexBar-Setup-1.4.28.exe",
   "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.28/NexBar-Setup-1.4.28.msi",
-  "notes": "Atomic dock positioning, full 11-icon Windows 11 system tray, Bluetooth inquiry scan, and auto-updater.",
+  "notes": "Fixed dock position jumping, added Bluetooth device search, improved system tray icons, and added automatic updates.",
   "releases": [
     {
       "version": "1.4.28",
       "date": "2026-11-15",
-      "title": "Dock Stability, Full Tray, Bluetooth Scan & Auto-Update",
+      "title": "Dock Stability, Bluetooth Discovery & Auto-Updates",
       "changes": [
-        "Locked main dock HWND coordinates via WM_WINDOWPOSCHANGING and atomic SetWindowPos to stop upward jumps when opening or closing apps.",
-        "Restored full 11+ Windows 11 system tray icon enumeration (UWP/Packaged + Win32) and double-click toggle close.",
-        "Added live Bluetooth classic + BLE inquiry scanning (discoverable/connectable devices).",
-        "Fixed Storage header live stats on immediate open and added built-in GitHub auto-updater + Changelog tab."
+        "Fixed the dock briefly jumping upward when opening or closing apps.",
+        "All background apps now appear properly in the system tray, and double-clicking the tray icon closes the popup.",
+        "Added live device search in the Bluetooth menu to find nearby headphones, speakers, and accessories.",
+        "Fixed Storage free space display on first open and added automatic updates with the new Changelog tab."
       ]
     },
     {
       "version": "1.4.27",
       "date": "2026-11-14",
-      "title": "Stripe Checkout, Custom MSI Installer & App Icon",
+      "title": "App Icon & License Checkout",
       "changes": [
-        "Updated lifetime license Stripe checkout integration and branded metallic N application icon.",
-        "Enabled NSIS and MSI installers with clean uninstallation and taskbar-guard watchdog protection.",
-        "Stabilized parallel COM/STA audio and Wi-Fi test suites."
+        "Updated the NexBar app icon with the new metallic N design.",
+        "Fixed the Buy button in Settings so it opens the license checkout page directly in your browser.",
+        "Improved taskbar restoration when closing or uninstalling NexBar."
       ]
     },
     {
       "version": "1.4.20",
       "date": "2026-11-01",
-      "title": "Liquid Glass Engine & Smart Taskbar Integration",
+      "title": "Liquid Glass & Smart Widgets",
       "changes": [
-        "Added native Liquid Glass refraction backdrop sampling and smooth magnification spring presets.",
-        "Added Focus timer, Screen Time tracking, Weather, Stocks, Calendar, and AI Integrations popovers."
+        "Added Liquid Glass dock styling and smooth icon magnification.",
+        "Added Focus timer, Screen Time, Weather, Stocks, Calendar, and AI usage widgets."
       ]
     }
   ]
