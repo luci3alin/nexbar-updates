@@ -1,10 +1,20 @@
 {
-  "version": "1.4.28",
+  "version": "1.4.29",
   "date": "2026-11-15",
-  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.28/NexBar-Setup-1.4.28.exe",
-  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.28/NexBar-Setup-1.4.28.msi",
-  "notes": "Fixed dock position jumping, added Bluetooth device search, improved system tray icons, and added automatic updates.",
+  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.29/NexBar-Setup-1.4.29.exe",
+  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.29/NexBar-Setup-1.4.29.msi",
+  "notes": "Added customizable notification font size (Small, Medium, Large, XL) and live Pro license activation after checkout.",
   "releases": [
+    {
+      "version": "1.4.29",
+      "date": "2026-11-15",
+      "title": "Notification Text Size & Live License Delivery",
+      "changes": [
+        "Added notification text size options (Small, Medium, Large, XL) in Settings and Notification Center, with larger default readability for WhatsApp and app messages.",
+        "Notification banners and inline reply boxes now resize cleanly to match your chosen text size.",
+        "Connected live license key generation after checkout so Pro keys are delivered immediately on purchase."
+      ]
+    },
     {
       "version": "1.4.28",
       "date": "2026-11-15",
