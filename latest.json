@@ -1,10 +1,21 @@
 {
-  "version": "1.4.32",
+  "version": "1.4.33",
   "date": "2026-11-20",
-  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.32/NexBar-Setup-1.4.32.exe",
-  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.32/NexBar-Setup-1.4.32.msi",
-  "notes": "Real-time DXGI Liquid Glass refraction with adjustable FPS, live audio volume sync, and maximized window restore fix.",
+  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.33/NexBar-Setup-1.4.33.exe",
+  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.33/NexBar-Setup-1.4.33.exe",
+  "notes": "Native Wireless Device Battery Monitor in Quick Toggles and System widgets, Ethernet auto-detection, lower RAM usage, smooth startup, and instant Task Manager and taskbar recovery.",
   "releases": [
+    {
+      "version": "1.4.33",
+      "date": "2026-11-20",
+      "title": "Wireless Device Battery Monitor, RAM Optimization & Shell Stability",
+      "changes": [
+        "Added native Wireless Device Battery Monitor in Quick Toggles and as a standalone System widget supporting Logitech Lightspeed/Bolt/Unifying, Razer HyperSpeed, HyperX, SteelSeries, DualSense/DS4, Xbox Wireless, and Bluetooth devices.",
+        "Added automatic Ethernet detection and dedicated Ethernet Quick Toggle popover for desktops and wired laptops.",
+        "Reduced total RAM footprint by ~50% (down to ~150-180 MB) when opening Settings and Widget Center, with instant zero-shift scrolling across all 104 widgets.",
+        "Improved startup stability, screenshot visibility when Hide in screenshots is off, Task Manager dock activation, and instant taskbar recovery even if NexBar is force-closed from Task Manager."
+      ]
+    },
     {
       "version": "1.4.32",
       "date": "2026-11-20",
