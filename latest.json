@@ -1,10 +1,21 @@
 {
-  "version": "1.4.30",
-  "date": "2026-11-15",
-  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.30/NexBar-Setup-1.4.30.exe",
-  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.30/NexBar-Setup-1.4.30.msi",
-  "notes": "License keys now bind automatically to a single PC on first activation.",
+  "version": "1.4.32",
+  "date": "2026-11-20",
+  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.32/NexBar-Setup-1.4.32.exe",
+  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.32/NexBar-Setup-1.4.32.msi",
+  "notes": "Real-time DXGI Liquid Glass refraction with adjustable FPS, live audio volume sync, and maximized window restore fix.",
   "releases": [
+    {
+      "version": "1.4.32",
+      "date": "2026-11-20",
+      "title": "Real Liquid Glass, Adjustable FPS & Core Fixes",
+      "changes": [
+        "Upgraded Liquid Glass to real-time DXGI Desktop Duplication so desktop icons, moving windows, videos, and animated wallpapers refract live underneath the dock.",
+        "Added a Liquid Glass refresh rate setting (Auto, 30 FPS, 60 FPS, Max) in Settings -> Appearance -> Glass & Opacity.",
+        "Fixed restoring minimized windows from the dock so previously maximized windows reopen maximized instead of shrinking.",
+        "Audio Output widget now updates immediately in real time when changing volume via keyboard keys, headsets, or Windows sound controls."
+      ]
+    },
     {
       "version": "1.4.30",
       "date": "2026-11-15",
