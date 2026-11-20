@@ -1,10 +1,20 @@
 {
-  "version": "1.4.33",
+  "version": "1.4.34",
   "date": "2026-11-20",
-  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.33/NexBar-Setup-1.4.33.exe",
-  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.33/NexBar-Setup-1.4.33.exe",
-  "notes": "Native Wireless Device Battery Monitor in Quick Toggles and System widgets, Ethernet auto-detection, lower RAM usage, smooth startup, and instant Task Manager and taskbar recovery.",
+  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.34/NexBar-Setup-1.4.34.exe",
+  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.34/NexBar-Setup-1.4.34.exe",
+  "notes": "Reliable minimize and restore for elevated apps and games, accurate Ethernet NIC detection, and smooth auto-hide dock reveal.",
   "releases": [
+    {
+      "version": "1.4.34",
+      "date": "2026-11-20",
+      "title": "Elevated Window Toggle, Ethernet NIC Detection & Auto-Hide Polish",
+      "changes": [
+        "Fixed dockbar click-to-minimize and restore for elevated (Run as Administrator) apps and games including Task Manager.",
+        "Fixed Ethernet adapter detection across all IEEE 802.3 and Gigabit NIC drivers so wired connections never report No Ethernet port.",
+        "Fixed auto-hide dock clipping and edge hover stability when revealing the dock from the bottom or top screen edge."
+      ]
+    },
     {
       "version": "1.4.33",
       "date": "2026-11-20",
