@@ -1,10 +1,21 @@
 {
-  "version": "1.4.34",
-  "date": "2026-11-20",
-  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.34/NexBar-Setup-1.4.34.exe",
-  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.34/NexBar-Setup-1.4.34.exe",
-  "notes": "Reliable minimize and restore for elevated apps and games, accurate Ethernet NIC detection, and smooth auto-hide dock reveal.",
+  "version": "1.4.35",
+  "date": "2026-11-21",
+  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.35/NexBar-Setup-1.4.35.exe",
+  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.35/NexBar-Setup-1.4.35.exe",
+  "notes": "Expanded 2.4 GHz Wireless Battery detection for SteelSeries Arctis Nova 5/5P/5X/7 & Keychron Link receivers, multi-sensor CPU/GPU/NVMe temperature telemetry, and live Network Speed chart.",
   "releases": [
+    {
+      "version": "1.4.35",
+      "date": "2026-11-21",
+      "title": "SteelSeries Nova & Keychron Link 2.4G Battery, Thermal Telemetry & Live Network Speed",
+      "changes": [
+        "Added 2.4 GHz wireless battery detection for SteelSeries Arctis Nova 5 / 5P / 5X / 3P / 3X / 7 / 7P / 7X / 7+ / GameBuds / Nova Pro Wireless / Arctis 9 / Rival 3 Wireless and HyperX Cloud Alpha Wireless.",
+        "Added Keychron Link 2.4 GHz receiver and QMK wireless keyboard detection (K2 HE, K4/K6/K8/K10 HE, Q/V/K Max, K/Q/B Pro) plus Ultra-Link 8K wireless mice (M5, M6).",
+        "Upgraded Temperature telemetry to reject static motherboard ACPI placeholders (such as 17C on AMD AM5 boards) and read live CPU, GPU (WDDM D3DKMT, AMD ADL, NVIDIA NVML), and NVMe SSD SMART temperatures.",
+        "Fixed live Network Speed chart and throughput counters across all Ethernet, Wi-Fi, and Gigabit network adapters."
+      ]
+    },
     {
       "version": "1.4.34",
       "date": "2026-11-20",
