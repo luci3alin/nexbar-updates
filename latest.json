@@ -1,10 +1,20 @@
 {
-  "version": "1.4.39",
+  "version": "1.4.40",
   "date": "2026-11-21",
-  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.39/NexBar-Setup-1.4.39.exe",
-  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.39/NexBar-Setup-1.4.39.msi",
-  "notes": "Zero-WDA Liquid Glass compositing so screenshots and video recordings always show the dock, pixel-exact Liquid Glass alignment under maximized browsers, and instant Windows taskbar suppression on physical Win-key presses.",
+  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.40/NexBar-Setup-1.4.40.exe",
+  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.40/NexBar-Setup-1.4.40.msi",
+  "notes": "Full-screen edge-to-edge Dock Segments positioning with per-segment Max Left, Center, Max Right presets, full-width continuous Position slider, non-overlap collision clamping, and click-through transparent gaps.",
   "releases": [
+    {
+      "version": "1.4.40",
+      "date": "2026-11-21",
+      "title": "Edge-to-Edge Dock Segments (Max Left, Center, Max Right & Full Position Control)",
+      "changes": [
+        "Added per-segment Auto, Max Left, Center, and Max Right position presets so floating dock segments can snap flush to the left screen edge, exact screen center, or flush to the right screen edge.",
+        "Expanded the per-segment Position slider from +/-120px to the full monitor width with automatic non-overlap collision clamping and Segment gap up to 120px.",
+        "Upgraded Win32 dock hit-testing with multi-rectangle regions so empty transparent gaps between spread segments remain 100% click-through to the desktop and apps underneath."
+      ]
+    },
     {
       "version": "1.4.39",
       "date": "2026-11-21",
