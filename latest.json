@@ -1,10 +1,20 @@
 {
-  "version": "1.4.38",
+  "version": "1.4.39",
   "date": "2026-11-21",
-  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.38/NexBar-Setup-1.4.38.exe",
-  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.38/NexBar-Setup-1.4.38.msi",
-  "notes": "Auto-hide top-edge fix on startup and DPI scaling, auto-fitted App Icon Size up to 150%, refined icon-only hover lift over the dock border, preserved auto-hide settings across updates, and silent in-app updater relaunch.",
+  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.39/NexBar-Setup-1.4.39.exe",
+  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.39/NexBar-Setup-1.4.39.msi",
+  "notes": "Zero-WDA Liquid Glass compositing so screenshots and video recordings always show the dock, pixel-exact Liquid Glass alignment under maximized browsers, and instant Windows taskbar suppression on physical Win-key presses.",
   "releases": [
+    {
+      "version": "1.4.39",
+      "date": "2026-11-21",
+      "title": "Screenshot & Video Visible Liquid Glass, Alignment Fix & Win-Key Taskbar Guard",
+      "changes": [
+        "Upgraded Liquid Glass, iOS Glass, and Midnight backdrop compositing to a Zero-WDA behind-dock pipeline so the dock stays 100% visible in screenshots and video recordings (OBS, Snipping Tool, Win+Shift+S, Game Bar, Discord) unless Hide in screenshots is enabled.",
+        "Fixed Liquid Glass / iOS Glass / Midnight vertical alignment under maximized browsers by syncing live window position across resize and DPI changes and removing vertical capture overhang.",
+        "Added an instant WinEventHook taskbar guard and recovered backoff so pressing the physical Win key never leaves the native Windows taskbar visible."
+      ]
+    },
     {
       "version": "1.4.38",
       "date": "2026-11-21",
