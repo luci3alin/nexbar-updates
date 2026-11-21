@@ -1,10 +1,22 @@
 {
-  "version": "1.4.36",
+  "version": "1.4.37",
   "date": "2026-11-21",
-  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.36/NexBar-Setup-1.4.36.exe",
-  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.36/NexBar-Setup-1.4.36.exe",
-  "notes": "Live Liquid Glass refraction on notification banners, Discord sender PFP avatars and inline reply bar, and multi-monitor visible-app notification suppression.",
+  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.37/NexBar-Setup-1.4.37.exe",
+  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.37/NexBar-Setup-1.4.37.exe",
+  "notes": "Movable dock segments, standalone Start (N) button, GPU load and temperature graph, Claude Max/Fable usage, Windows Taskbar pin import, interactive welcome tutorial, and async All Widgets performance.",
   "releases": [
+    {
+      "version": "1.4.37",
+      "date": "2026-11-21",
+      "title": "Movable Dock Segments, Standalone Start Button, GPU Graph & Claude Max Usage",
+      "changes": [
+        "Added movable Dock Segments (split the dock into 2, 3, or 4 floating Liquid Glass segments with custom gap, horizontal offsets, and drag or right-click widget assignment).",
+        "Detached the Start (N) button into a standalone movable widget that can be dragged anywhere on the dock and customized via right-click -> Change icon.",
+        "Added live GPU load, GPU temperature history graph, and GPU on Bar toggle in the Temperature widget.",
+        "Fixed Claude Max / Pro / Team plan detection, dynamic 7-day Fable/Opus/Sonnet buckets, and 0% session usage in Claude Usage widgets.",
+        "Added automatic Windows Taskbar pinned apps and exact order import, an optional dark-glass interactive Welcome Tutorial, and non-blocking async loading for All Widgets."
+      ]
+    },
     {
       "version": "1.4.36",
       "date": "2026-11-21",
