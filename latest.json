@@ -1,10 +1,20 @@
 {
-  "version": "1.4.35",
+  "version": "1.4.36",
   "date": "2026-11-21",
-  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.35/NexBar-Setup-1.4.35.exe",
-  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.35/NexBar-Setup-1.4.35.exe",
-  "notes": "Expanded 2.4 GHz Wireless Battery detection for SteelSeries Arctis Nova 5/5P/5X/7 & Keychron Link receivers, multi-sensor CPU/GPU/NVMe temperature telemetry, and live Network Speed chart.",
+  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.36/NexBar-Setup-1.4.36.exe",
+  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.36/NexBar-Setup-1.4.36.exe",
+  "notes": "Live Liquid Glass refraction on notification banners, Discord sender PFP avatars and inline reply bar, and multi-monitor visible-app notification suppression.",
   "releases": [
+    {
+      "version": "1.4.36",
+      "date": "2026-11-21",
+      "title": "Live Liquid Glass Notifications, Discord Avatars & Reply Bar",
+      "changes": [
+        "Upgraded notification banners to use the real-time WebGL2 Liquid Glass refraction engine (with DXGI WDA_EXCLUDEFROMCAPTURE self-capture protection) so moving windows, games, and videos refract live underneath notifications.",
+        "Added circular sender profile pictures (PFP avatars) with mini corner app badges and an inline quick-reply bar on Discord notifications.",
+        "Added a Mute when app is visible on screen setting in Settings -> General -> Notifications for multi-monitor setups so banners are skipped when the app is already open and uncovered on another monitor."
+      ]
+    },
     {
       "version": "1.4.35",
       "date": "2026-11-21",
