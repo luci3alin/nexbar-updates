@@ -1,10 +1,21 @@
 {
-  "version": "1.4.37",
+  "version": "1.4.38",
   "date": "2026-11-21",
-  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.37/NexBar-Setup-1.4.37.exe",
-  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.37/NexBar-Setup-1.4.37.exe",
-  "notes": "Movable dock segments, standalone Start (N) button, GPU load and temperature graph, Claude Max/Fable usage, Windows Taskbar pin import, interactive welcome tutorial, and async All Widgets performance.",
+  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.38/NexBar-Setup-1.4.38.exe",
+  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.38/NexBar-Setup-1.4.38.msi",
+  "notes": "Auto-hide top-edge fix on startup and DPI scaling, auto-fitted App Icon Size up to 150%, refined icon-only hover lift over the dock border, preserved auto-hide settings across updates, and silent in-app updater relaunch.",
   "releases": [
+    {
+      "version": "1.4.38",
+      "date": "2026-11-21",
+      "title": "Auto-Hide Top-Edge Fix, Auto-Fitted Icon Scaling & Refined Hover Lift",
+      "changes": [
+        "Fixed the top edge of the dock getting sliced off on startup when Auto-hide is enabled by sizing the WebView2 viewport with full DPI-scaled headroom from launch and unifying dock bounds synchronization.",
+        "Fixed App Icon Size above 100% (e.g. 130%) overlapping neighboring tile borders by automatically fitting icon sizes cleanly inside each dock tile.",
+        "Refined the dock app hover animation so only the app icon gently lifts over the dock border while the rounded tile card stays stationary.",
+        "Preserved existing Auto-hide and Windows Taskbar preferences across updates and restored silent one-click updater relaunch."
+      ]
+    },
     {
       "version": "1.4.37",
       "date": "2026-11-21",
