@@ -1,10 +1,21 @@
 {
-  "version": "1.4.40",
-  "date": "2026-11-21",
-  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.40/NexBar-Setup-1.4.40.exe",
-  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.40/NexBar-Setup-1.4.40.msi",
-  "notes": "Full-screen edge-to-edge Dock Segments positioning with per-segment Max Left, Center, Max Right presets, full-width continuous Position slider, non-overlap collision clamping, and click-through transparent gaps.",
+  "version": "1.4.41",
+  "date": "2026-11-22",
+  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.41/NexBar-Setup-1.4.41.exe",
+  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.41/NexBar-Setup-1.4.41.msi",
+  "notes": "Accurate AMD Ryzen CPU temperatures (HWiNFO64/Afterburner/AIDA64 + calibrated thermal curve), All Widgets crash & freeze fix, OBS/video preview blackout fix on dock click, and segmented dock expansion clipping fix.",
   "releases": [
+    {
+      "version": "1.4.41",
+      "date": "2026-11-22",
+      "title": "AMD Ryzen Temp Calibration, All Widgets Crash Fix, OBS Preview Fix & Segment Clipping Fix",
+      "changes": [
+        "Added pure user-mode shared-memory readers for HWiNFO64, MSI Afterburner, and AIDA64 alongside CoreTemp/LibreHardwareMonitor, and recalibrated the AMD AM5 fallback thermal curve so Ryzen CPUs no longer falsely spike to 91 C.",
+        "Fixed All Widgets freezing (Not Responding) and crashing on Store and desktop installs by increasing WebView2 memory ceilings, lazy-mounting previews via IntersectionObserver with isolated error boundaries and full cleanup on close, and moving blocking WASAPI/GDI calls to async workers.",
+        "Fixed live video and screen-recording previews (OBS Studio, browsers) turning black on screen when clicking the dock by removing PrintWindow during drag/hover frames and skipping GPU/MPO/recorder window classes.",
+        "Fixed segmented dock clipping the left edge of Segment 2 and 3 when opening apps by removing conflicting CSS margin-left transitions on widgets, triggering immediate segment relayout during resize, and unioning live widget bounds in Win32 hit-test regions."
+      ]
+    },
     {
       "version": "1.4.40",
       "date": "2026-11-21",
