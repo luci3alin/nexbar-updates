@@ -13,7 +13,9 @@
         "Added pure user-mode shared-memory readers for HWiNFO64, MSI Afterburner, and AIDA64 alongside CoreTemp/LibreHardwareMonitor, and recalibrated the AMD AM5 fallback thermal curve so Ryzen CPUs no longer falsely spike to 91 C.",
         "Fixed All Widgets freezing (Not Responding) and crashing on Store and desktop installs by increasing WebView2 memory ceilings, lazy-mounting previews via IntersectionObserver with isolated error boundaries and full cleanup on close, and moving blocking WASAPI/GDI calls to async workers.",
         "Fixed live video and screen-recording previews (OBS Studio, browsers) turning black on screen when clicking the dock by removing PrintWindow during drag/hover frames and skipping GPU/MPO/recorder window classes.",
-        "Fixed segmented dock clipping the left edge of Segment 2 and 3 when opening apps by removing conflicting CSS margin-left transitions on widgets, triggering immediate segment relayout during resize, and unioning live widget bounds in Win32 hit-test regions."
+        "Fixed segmented dock clipping the left edge of Segment 2 and 3 when opening apps by removing conflicting CSS margin-left transitions on widgets, triggering immediate segment relayout during resize, and unioning live widget bounds in Win32 hit-test regions.",
+        "Prevented notifications from minimizing fullscreen games (e.g. League of Legends) by detecting Direct3D/fullscreen focus via SHQueryUserNotificationState and monitor bounds, silently logging alerts to Notification Center history, and making toast windows strictly non-activating (WS_EX_NOACTIVATE + SWP_NOACTIVATE).",
+        "Fixed NaN% appearing in high-CPU-temperature alert notifications by aligning the top_cpu_app percent payload and validating finite percentages."
       ]
     },
     {
