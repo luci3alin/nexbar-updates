@@ -1,10 +1,20 @@
 {
-  "version": "1.4.42",
+  "version": "1.4.43",
   "date": "2026-11-25",
-  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.42/NexBar-Setup-1.4.42.exe",
-  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.42/NexBar-Setup-1.4.42.msi",
-  "notes": "Restored live app refraction behind Liquid Glass dock & notifications, fixed Snipping Tool recording blackout on dock click, eliminated white region boxes after screenshots, and upgraded segmented Dock Magnification.",
+  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.43/NexBar-Setup-1.4.43.exe",
+  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.43/NexBar-Setup-1.4.43.msi",
+  "notes": "Restored live Liquid Glass transparency over Discord, browsers, and open apps under both the dock and notifications, with smooth continuous backdrop updates.",
   "releases": [
+    {
+      "version": "1.4.43",
+      "date": "2026-11-25",
+      "title": "Live Liquid Glass Over Discord & Browsers + Continuous Backdrop Sync",
+      "changes": [
+        "Fixed Discord, Chrome, Brave, Edge, and other modern desktop apps not appearing through Liquid Glass behind the dock and notification banners.",
+        "Added continuous live backdrop refresh while scrolling or switching tabs behind the dock, while keeping screen recordings and screenshots clean.",
+        "Fixed backdrop refresh loop stalling after hover, drag, or dock resize transitions."
+      ]
+    },
     {
       "version": "1.4.42",
       "date": "2026-11-25",
