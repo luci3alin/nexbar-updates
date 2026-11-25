@@ -1,10 +1,21 @@
 {
-  "version": "1.4.41",
-  "date": "2026-11-22",
-  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.41/NexBar-Setup-1.4.41.exe",
-  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.41/NexBar-Setup-1.4.41.msi",
-  "notes": "Accurate AMD Ryzen CPU temperatures (HWiNFO64/Afterburner/AIDA64 + calibrated thermal curve), All Widgets crash & freeze fix, OBS/video preview blackout fix on dock click, and segmented dock expansion clipping fix.",
+  "version": "1.4.42",
+  "date": "2026-11-25",
+  "url": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.42/NexBar-Setup-1.4.42.exe",
+  "msiUrl": "https://github.com/luci3alin/nexbar-updates/releases/download/v1.4.42/NexBar-Setup-1.4.42.msi",
+  "notes": "Restored live app refraction behind Liquid Glass dock & notifications, fixed Snipping Tool recording blackout on dock click, eliminated white region boxes after screenshots, and upgraded segmented Dock Magnification.",
   "releases": [
+    {
+      "version": "1.4.42",
+      "date": "2026-11-25",
+      "title": "Liquid Glass App Refraction, Snipping Tool Recording Fix, Screenshot Transparency & Segmented Magnification",
+      "changes": [
+        "Restored live app window refraction (Discord, Chrome, Brave, Firefox, Explorer, terminals) behind both the Liquid Glass dock and notification banners.",
+        "Fixed Windows 11 Snipping Tool screen recording turning black inside the recording border when clicking the dock by skipping click-through (WS_EX_TRANSPARENT) and capture/HUD overlay windows during backdrop compositing.",
+        "Eliminated solid white rectangular boxes appearing along segmented dock regions after taking a screenshot by blocking GDI background erase (WM_ERASEBKGND / hbrBackground), preserving DirectComposition margins, and avoiding WS_EX_TRANSPARENT mutations.",
+        "Upgraded Dock Magnification for segmented docks: isolated magnification per hovered segment, dynamically expanded the active segment pill so items never overflow off their bar, kept the Start button visible, and dissolved outer tile outlines on magnified icons."
+      ]
+    },
     {
       "version": "1.4.41",
       "date": "2026-11-22",
